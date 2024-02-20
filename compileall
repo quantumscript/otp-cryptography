@@ -1,0 +1,8 @@
+#/bin/bash
+# Compilation script for encryption/decryption program
+
+gcc -o keygen funcs/keygen.c
+gcc -o otp_enc funcs/otp_enc.c
+gcc -o otp_enc_d funcs/otp_enc_d.c
+gcc -o otp_dec funcs/otp_dec.c
+gcc -o otp_dec_d funcs/otp_dec_d.c
